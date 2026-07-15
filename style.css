@@ -257,25 +257,24 @@ body {
   transition: color 0.2s ease;
 }
 
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-link-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
 .contact-list a:hover {
   color: var(--accent);
 }
 
 .site-footer {
-  display: flex;
-  justify-content: center;
-  padding: 0 0 2rem;
-}
-
-.linkedin-footer-logo {
-  width: 36px;
-  height: 36px;
-  object-fit: contain;
-  transition: transform 0.2s ease;
-}
-
-.linkedin-footer-logo:hover {
-  transform: translateY(-2px);
+  display: none;
 }
 
 @media (max-width: 760px) {
