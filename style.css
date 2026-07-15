@@ -190,6 +190,15 @@ body {
 .entry-head h3 {
   margin: 0;
   color: #143b63;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.title-logo {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
 .entry-location {
@@ -250,6 +259,23 @@ body {
 
 .contact-list a:hover {
   color: var(--accent);
+}
+
+.site-footer {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 2rem;
+}
+
+.linkedin-footer-logo {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.linkedin-footer-logo:hover {
+  transform: translateY(-2px);
 }
 
 @media (max-width: 760px) {
