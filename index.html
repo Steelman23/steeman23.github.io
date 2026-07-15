@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="top-header" class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home">Your Name Surname</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#hobbies">Hobbies</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home" class="container main-content">
+      <section class="hero card">
+        <h1 id="typewriter" data-text="Your Name Surname"></h1>
+        <p class="subtitle">Mechatronics Engineering Student</p>
+        <a class="btn" href="assets/cv.pdf" download>Download CV</a>
+      </section>
+
+      <section id="about" class="card section">
+        <h2>About Me</h2>
+        <p>
+          I am a Mechatronics Engineering student passionate about mechanics, understanding how things work, 3D design, and optimization.
+          I enjoy exploring better solutions through continuous improvement, curiosity, and adaptability. Outside academics, I love
+          traveling, photography, swimming, and hiking.
+        </p>
+      </section>
+
+      <section id="skills" class="card section">
+        <h2>Skills</h2>
+        <ul class="tags">
+          <li>Teamwork</li>
+          <li>Problem Solving</li>
+          <li>Planning</li>
+          <li>Creativity</li>
+          <li>Critical Thinking</li>
+          <li>Curiosity</li>
+          <li>Adaptability</li>
+          <li>Communication</li>
+        </ul>
+      </section>
+
+      <section id="education" class="card section">
+        <h2>Education</h2>
+        <ul class="timeline">
+          <li><strong>2022 - 2025:</strong> BSc in Mechatronics Engineering, Example University, City, Country</li>
+          <li><strong>2017 - 2022:</strong> High School Diploma in Science, Example Institute, City, Country</li>
+        </ul>
+      </section>
+
+      <section id="projects" class="card section">
+        <h2>Academic Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Optimization of a Robotic Arm</h3>
+            <p>
+              Design and simulation of a 3 DOF robotic arm using MATLAB and Simulink to optimize path planning and movement efficiency.
+            </p>
+            <p><strong>Technologies:</strong> MATLAB, Simulink, CAD</p>
+          </article>
+          <article class="project-card">
+            <h3>Sensor-Based Monitoring System</h3>
+            <p>
+              Development of an IoT system for monitoring environmental parameters with Arduino and a Python dashboard.
+            </p>
+            <p><strong>Technologies:</strong> Arduino, Python, C++</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="hobbies" class="card section">
+        <h2>Hobbies</h2>
+        <p>
+          Swimming and hiking are my favorite activities. I also enjoy traveling and taking landscape photography.
+        </p>
+      </section>
+
+      <section id="contact" class="card section">
+        <h2>Contact</h2>
+        <ul class="contact-list">
+          <li><a href="mailto:your.email@example.com">your.email@example.com</a></li>
+          <li><a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://github.com/Steelman23" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
