@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portfolio</title>
+    <title>Marco Turato | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header id="top-header" class="site-header">
       <div class="container header-inner">
-        <a class="brand" href="#home">Your Name Surname</a>
+        <a class="brand" href="#home">Marco Turato</a>
         <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
           <span></span><span></span><span></span>
         </button>
@@ -18,7 +18,6 @@
           <a href="#skills">Skills</a>
           <a href="#education">Education</a>
           <a href="#projects">Projects</a>
-          <a href="#hobbies">Hobbies</a>
           <a href="#contact">Contact</a>
         </nav>
       </div>
@@ -26,7 +25,8 @@
 
     <main id="home" class="container main-content">
       <section class="hero card">
-        <h1 id="typewriter" data-text="Your Name Surname"></h1>
+        <img class="hero-photo" src="https://github.com/user-attachments/assets/fb379656-e821-40e4-abd3-f4fd01e873b9" alt="Portrait of Marco Turato" />
+        <h1 id="typewriter" data-text="Marco Turato"></h1>
         <p class="subtitle">Mechatronics Engineering Student</p>
         <a class="btn" href="assets/cv.pdf" download>Download CV</a>
       </section>
@@ -34,67 +34,123 @@
       <section id="about" class="card section">
         <h2>About Me</h2>
         <p>
-          I am a Mechatronics Engineering student passionate about mechanics, understanding how things work, 3D design, and optimization.
-          I enjoy exploring better solutions through continuous improvement, curiosity, and adaptability. Outside academics, I love
-          traveling, photography, swimming, and hiking.
+          I am a Mechatronics Engineering student focused on robotics, industrial systems, and renewable energy conversion.
+          I enjoy solving complex multidisciplinary problems through modeling, simulation, and collaborative project work.
         </p>
       </section>
 
       <section id="skills" class="card section">
         <h2>Skills</h2>
-        <ul class="tags">
-          <li>Teamwork</li>
-          <li>Problem Solving</li>
-          <li>Planning</li>
-          <li>Creativity</li>
-          <li>Critical Thinking</li>
-          <li>Curiosity</li>
-          <li>Adaptability</li>
-          <li>Communication</li>
+        <ul class="detail-list">
+          <li><strong>Mindset:</strong> adaptable, collaborative, detail oriented, proactive, and solution-oriented.</li>
+          <li><strong>Technical communication:</strong> effective technical communication and presentation skills (certified by Lodz University of Technology).</li>
+          <li><strong>Software:</strong> ROS2, Ubuntu (Linux), Visual Components, AutoCAD, SolidWorks, Inventor, Ansys, MATLAB, Adams, Delta COMMGR.</li>
+          <li><strong>Programming:</strong> C++, R, Python, Mathematica.</li>
+          <li><strong>Languages:</strong> English (B2), Italian (C2), currently learning German.</li>
+          <li><strong>Hobbies:</strong> hiking, photography, second-hand school book sharing volunteer, scouting.</li>
+          <li><strong>Driving license</strong></li>
         </ul>
       </section>
 
       <section id="education" class="card section">
         <h2>Education</h2>
-        <ul class="timeline">
-          <li><strong>2022 - 2025:</strong> BSc in Mechatronics Engineering, Example University, City, Country</li>
-          <li><strong>2017 - 2022:</strong> High School Diploma in Science, Example Institute, City, Country</li>
-        </ul>
-      </section>
-
-      <section id="projects" class="card section">
-        <h2>Academic Projects</h2>
-        <div class="projects-grid">
-          <article class="project-card">
-            <h3>Optimization of a Robotic Arm</h3>
-            <p>
-              Design and simulation of a 3 DOF robotic arm using MATLAB and Simulink to optimize path planning and movement efficiency.
-            </p>
-            <p><strong>Technologies:</strong> MATLAB, Simulink, CAD</p>
-          </article>
-          <article class="project-card">
-            <h3>Sensor-Based Monitoring System</h3>
-            <p>
-              Development of an IoT system for monitoring environmental parameters with Arduino and a Python dashboard.
-            </p>
-            <p><strong>Technologies:</strong> Arduino, Python, C++</p>
-          </article>
+        <div class="entry">
+          <div class="entry-head">
+            <h3>University of Trento</h3>
+            <span class="entry-location">Trento, IT</span>
+          </div>
+          <p class="entry-meta">Enrolled in Master of Mechatronics Engineering <span>Sep 2024 &ndash; Present</span></p>
+          <ul class="detail-list">
+            <li>Focus: industrial robotics, mechanics, renewable energy conversion systems, statistics, system design, intelligent distributed systems, FEM analysis, simulation of multi-domain complex systems.</li>
+          </ul>
+        </div>
+        <div class="entry">
+          <div class="entry-head">
+            <h3>Lodz University of Technology</h3>
+            <span class="entry-location">Online</span>
+          </div>
+          <p class="entry-meta">ECIU micro-module &ldquo;Ditch it or pitch it&rdquo; <span>Nov 2025 &ndash; Feb 2026</span></p>
+          <ul class="detail-list">
+            <li>Grade: 5/5.</li>
+            <li>Focus: communication and presentation techniques.</li>
+          </ul>
+        </div>
+        <div class="entry">
+          <div class="entry-head">
+            <h3>LUT University</h3>
+            <span class="entry-location">Lappeenranta, FI</span>
+          </div>
+          <p class="entry-meta">Exchange semester <span>Jan 2025 &ndash; May 2025</span></p>
+          <ul class="detail-list">
+            <li>Average grade: 4.68/5.</li>
+            <li>Focus: system modelling, welding automation, machine dynamics, laser, optics and AM systems, simulation, control of mechatronics machines.</li>
+          </ul>
+        </div>
+        <div class="entry">
+          <div class="entry-head">
+            <h3>University of Trento</h3>
+            <span class="entry-location">Trento, IT</span>
+          </div>
+          <p class="entry-meta">Bachelor of Industrial Engineering <span>Sep 2021 &ndash; Sep 2024</span></p>
+          <ul class="detail-list">
+            <li>GPA: 104/110 (Top 10% of class).</li>
+            <li>Thesis on failure analysis of a bolt used in naval field due to fatigue and corrosion, performing SEM analysis.</li>
+            <li>Focus: controls, materials, measurements.</li>
+          </ul>
+        </div>
+        <div class="entry">
+          <div class="entry-head">
+            <h3>ITIS A. Rossi</h3>
+            <span class="entry-location">Vicenza, IT</span>
+          </div>
+          <p class="entry-meta">Technical secondary school in Mechatronics <span>Sep 2016 &ndash; Jul 2021</span></p>
+          <ul class="detail-list">
+            <li>GPA: 100/100.</li>
+            <li>Final project on design of a jib crane, from the mechanical structure design to PLC control.</li>
+            <li>Focus: 3D modelling, coding, mechanics, and energy systems.</li>
+          </ul>
         </div>
       </section>
 
-      <section id="hobbies" class="card section">
-        <h2>Hobbies</h2>
-        <p>
-          Swimming and hiking are my favorite activities. I also enjoy traveling and taking landscape photography.
-        </p>
+      <section id="projects" class="card section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="entry-head">
+              <h3>University of Trento</h3>
+              <span class="entry-location">Trento, IT</span>
+            </div>
+            <ul class="detail-list">
+              <li>Currently working on my Master Thesis &ldquo;Parallelization of Power Take-off systems for point absorber wave energy converters&rdquo; in collaboration with NTNU (Trondheim).</li>
+              <li>Winner of &ldquo;Best Project Award&rdquo; in the FEM course with the FEA of the 5 MW Reference Wind Turbine (for Offshore System Development) blade.</li>
+              <li>Energy evaluation of the offshore DTU 10 MW wind turbine (including PMSG model) on Simulink (MATLAB), performing both static and dynamic analysis.</li>
+              <li>Wind farm SCADA controller model for improving maintenance planning and energy requirements from the grid (on Simulink).</li>
+              <li>Hydraulic circuit modelling of a VOLVO excavator arm in Simulink as a group project.</li>
+              <li>Modelling and energy analysis of a commercial PV module (100 W) equipped with an uniaxial tracking system.</li>
+              <li>Mechanical design of a sweeper robot in team collaboration, from concept selection to the final 3D assembly.</li>
+              <li>Project on the realization of a displacement de-multiplier using flexures hinges in which QFD map, Pugh matrix, TRIZ method and belief map has been applied.</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="entry-head">
+              <h3>LUT University</h3>
+              <span class="entry-location">Lappeenranta, FI</span>
+            </div>
+            <ul class="detail-list">
+              <li>Simulink modelling of a hydraulic workshop crane with PID controller, then tested in a real prototype.</li>
+              <li>Programmed an anthropomorphic welding robot (Yaskawa) for automated manufacturing of an automotive component.</li>
+              <li>Designed and 3D-printed an innovative lightweight gear-shift knob.</li>
+            </ul>
+          </article>
+        </div>
       </section>
 
       <section id="contact" class="card section">
         <h2>Contact</h2>
         <ul class="contact-list">
-          <li><a href="mailto:your.email@example.com">your.email@example.com</a></li>
-          <li><a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-          <li><a href="https://github.com/Steelman23" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="mailto:marcoturato@outlook.it">marcoturato@outlook.it</a></li>
+          <li><a href="tel:+393388710315">+39 338 871 0315</a></li>
+          <li><a href="https://www.linkedin.com/in/marco-turato/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
         </ul>
       </section>
     </main>
